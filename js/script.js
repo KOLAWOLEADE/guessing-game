@@ -13,17 +13,23 @@ const num = 20;
 
     }
 
-    else if (guessNumber < num){
-        alert("Try again: The number is greater than your guess number");
-        console.log("Try again: The number is greater than your guess number");
-        document.write("Try again: The number is greater than your guess number");
-    }
+    // else if (guessNumber < num){
+    //     alert("Try again: The number is greater than your guess number");
+    //     console.log("Try again: The number is greater than your guess number");
+    //     document.write("Try again: The number is greater than your guess number");
+    // }
 
-    else if  (guessNumber > num){
-        alert("Try again: The number is lesser than your guess number");
-        console.log("Try again: The number is lesser than your guess number");
-        document.write("Try again: The number is lesser than your guess number");
+    // else if  (guessNumber > num){
+    //     alert("Try again: The number is lesser than your guess number");
+    //     console.log("Try again: The number is lesser than your guess number");
+    //     document.write("Try again: The number is lesser than your guess number");
 
+    // }
+
+    else if (guessNumber >= 100){
+        alert("Number is in tens")
+        console.log(" Number is in tens")
+        document.write(" Number is in tens")
     }
 
     else {
